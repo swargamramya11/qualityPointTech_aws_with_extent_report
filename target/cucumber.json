@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1440700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Performing all operations",
+        "description": "",
+        "id": "quality-point-tech-website;performing-all-operations",
+        "after": [
+          {
+            "result": {
+              "duration": 490200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.addTestStepLog(ExtentCucumberAdapter.java:448)\r\n\tat com.qualitypointtech.stepdefinations.Steps.launch_chrome_Browser_and_Navigate_to_url(Steps.java:39)\r\n\tat ✽.Launch Browser and Navigate to url(file:src/main/resources/features/qualitypointtech.feature:4)\r\n",
+              "duration": 20451967300,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Launch Browser and Navigate to url",
+            "match": {
+              "location": "Steps.launch_chrome_Browser_and_Navigate_to_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Entering Username,Password and Click on Login button",
+            "match": {
+              "location": "Steps.entering_Username_Password_and_Click_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Verification of Login Successfull message",
+            "match": {
+              "location": "Steps.verification_of_Login_Successfull_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Clicking on employee details and create new user",
+            "match": {
+              "location": "Steps.clicking_on_employee_details_and_create_new_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Verification of new user page",
+            "match": {
+              "location": "Steps.verification_of_new_user_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Entering Employee Details and Click on Save Details",
+            "match": {
+              "location": "Steps.entering_Employee_Details_and_Click_on_Save_Details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Verification of Employee Details saved sucessfully message",
+            "match": {
+              "location": "Steps.verification_of_Employee_Details_saved_sucessfully_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 157900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Clicking on Employee Details link",
+            "match": {
+              "location": "Steps.clicking_on_Employee_Details_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27300,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Verification of new user details is displayed in table or not",
+            "match": {
+              "location": "Steps.verification_of_new_user_details_is_displayed_in_table_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29300,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Clicking on Logout",
+            "match": {
+              "location": "Steps.clicking_on_Logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Verification of logout successfull message",
+            "match": {
+              "location": "Steps.verification_of_logout_successfull_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34700,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Close the Browser",
+            "match": {
+              "location": "Steps.close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_01"
+          }
+        ]
+      }
+    ],
+    "name": "Quality point tech website",
+    "description": "",
+    "id": "quality-point-tech-website",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/qualitypointtech.feature",
+    "tags": []
+  }
+]

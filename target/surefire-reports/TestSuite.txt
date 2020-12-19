@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 2.439 s <<< FAILURE! - in TestSuite
+setUpClass(com.insurance.testrunners.Runner)  Time elapsed: 2.076 s  <<< FAILURE!
+cucumber.runtime.CucumberException: Unknown option: --features
+
+tearDownClass(com.insurance.testrunners.Runner)  Time elapsed: 2.439 s  <<< FAILURE!
+java.lang.NullPointerException
+

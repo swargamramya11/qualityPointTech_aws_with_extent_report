@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-24T09:23:24 IST" name="Suite" finished-at="2020-11-24T09:27:16 IST" duration-ms="231522">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.insurance.testrunners.Runner@61230f6a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-11-24T09:23:24 IST" name="Test" finished-at="2020-11-24T09:27:16 IST" duration-ms="231522">
+      <class name="com.insurance.testrunners.Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.insurance.testrunners.Runner@61230f6a]" started-at="2020-11-24T09:23:24 IST" name="setUpClass" finished-at="2020-11-24T09:23:25 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.insurance.testrunners.Runner@61230f6a]" started-at="2020-11-24T09:23:25 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-11-24T09:27:15 IST" duration-ms="230261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Insurance website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.insurance.testrunners.Runner@61230f6a]" started-at="2020-11-24T09:27:15 IST" name="tearDownClass" finished-at="2020-11-24T09:27:16 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.insurance.testrunners.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
